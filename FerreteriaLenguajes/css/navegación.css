@@ -1,0 +1,65 @@
+body{
+    background-color:orange;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    padding-left: 10px;
+    font-size: 50px;
+}
+nav{
+    font-size: 20px;
+    margin-top: -35px;
+    float:right;
+
+}
+.Menu {
+    padding-left: 15px;
+    padding-right: 15px;
+    color:black;
+    text-decoration:none;
+}
+.Menu:hover{
+    background-color: lightyellow;
+}
+#Buscar {
+    margin-left: 30%;
+    font-size: 20px;
+    width: 30%;
+}
+#Buscarlink{
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+aside {
+    margin-top: -70px;
+    margin-left: 30px;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+h3 {
+    font-size: 30px;
+}
+
+h3#Categorias {
+    border-bottom: 2px solid white;
+}
+
+ul{
+    padding: 0;
+	width:100%;
+    list-style-type: none;
+}
+
+.Categoria{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+.Elemento {
+    padding-bottom: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}   

@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\Negocio.dll
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\Negocio.xml
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\DAL.dll
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\Entity.dll
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\DAL.xml
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\Entity.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\bin\Debug\Entity.xml
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\obj\Debug\Negocio.dll
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\obj\Debug\Negocio.xml
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\Negocio\obj\Debug\Negocio.pdb

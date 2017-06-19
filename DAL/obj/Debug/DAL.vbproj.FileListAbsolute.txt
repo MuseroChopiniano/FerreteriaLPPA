@@ -1,0 +1,12 @@
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\bin\Debug\DAL.dll
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\bin\Debug\DAL.xml
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\obj\Debug\DAL.dll
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\obj\Debug\DAL.xml
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\obj\Debug\DAL.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\bin\Debug\Entity.dll
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\bin\Debug\Entity.pdb
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\bin\Debug\Entity.xml
+C:\Users\Lenovo\Documents\Visual Studio 2013\Projects\ElClavoOxidado\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache

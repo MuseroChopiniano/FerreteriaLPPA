@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL_Usuario.vb" />
+    <Compile Include="Settings.vb" />
     <Compile Include="SQL_Desconectado.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

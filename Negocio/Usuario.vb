@@ -19,11 +19,11 @@
 
         ' Si usuario esta informado pero no es valido es error en clave
         If _user.IsValid = False Then
-            _user.Cant_Bloqueos += 1
-    
             If _user.Cant_Bloqueos >= 3 Then
                 _user.Bloqueado = True
                 ' Actualizo el usuario y retorno el error
+                _dal.Bloquear_Usuarios(_user)
+
                 Dim _ex As New Entity.Excepcion_Login("Usuario Bloqueado")
                 Throw _ex
             End If

@@ -79,4 +79,29 @@ Public Class SQL_Desconectado
         End Try
         Return mDs
     End Function
+
+    Public Function EjecutarEscalar_StoreProcedure(consulta As String, parametros As Dictionary(Of String, Object)) As Object
+        Try
+            Dim unComando As New SqlCommand()
+
+            '1) La conexion abierta.
+            unComando.Connection = _sqlConnection
+            'unComando.Transaction = _unaTransaccion
+
+            '2) Texto de la consulta.
+            unComando.CommandText = consulta
+
+            For Each p In parametros
+                unComando.Parameters.AddWithValue(p.Key, p.Value)
+            Next
+
+            '3) Tipo de consulta.
+            unComando.CommandType = CommandType.StoredProcedure
+
+            '4) Ejecutar y esperar el resultado.
+            Return unComando.ExecuteScalar()
+        Catch ex As Exception
+            Return -1
+        End Try
+    End Function
 End Class

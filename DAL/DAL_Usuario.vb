@@ -29,4 +29,22 @@
         Else
         End If
     End Sub
+
+    Public Sub Bloquear_Usuarios(ByRef usuario As Entity.Usuario)
+        Dim _dal As New DAL.SQL_Desconectado
+
+        Dim _ds As DataSet ' Obtengo de la BD los datos
+        Dim _storeprocedure As String
+        Dim _parametros As New Dictionary(Of String, Object)
+
+        _storeprocedure = "sp_BloquearUser" ' Nombre del store procedure de persistencia
+
+        _parametros.Clear()
+
+        _parametros.Add("@Usuario", usuario.Usuario)
+
+        ' Obtengo el tipo
+        _ds = _dal.EjecutarEscalar_StoreProcedure(_storeprocedure, _parametros)
+
+    End Sub
 End Class

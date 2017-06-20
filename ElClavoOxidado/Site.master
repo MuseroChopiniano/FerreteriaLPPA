@@ -59,7 +59,8 @@
                         <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Account/Register">Registrarse</a></li>
-                                <li><a runat="server" href="~/Account/Login">Iniciar Sesión</a></li>
+                                <%--<li><a runat="server" href="~/Account/Login">Iniciar Sesión</a></li>--%>
+                                <li><a runat="server" href="~/Eduardo_Default">Iniciar Sesión</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>

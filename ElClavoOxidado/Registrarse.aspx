@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Registrarse" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Registrarse.aspx.vb" Inherits="Registrarse" %>
+﻿<%@ Page Title="Registrarse" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Registrarse.aspx.vb" Inherits="Registrarse" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
     <h2><%: Title %></h2>
@@ -46,7 +46,7 @@
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <asp:Button runat="server" Text="Registrarse" CssClass="btn btn-default" OnClick="Registrarse" ID="RegistrarseBtn" />
+                <asp:Button runat="server" Text="Registrarse" CssClass="btn btn-default" ID="RegistrarseBtn" />
             </div>
         </div>
     </div>

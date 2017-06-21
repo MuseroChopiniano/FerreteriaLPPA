@@ -28,3 +28,18 @@ C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Negocio\obj\Debug\Negocio.vbproj
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Negocio\obj\Debug\Negocio.dll
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Negocio\obj\Debug\Negocio.xml
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\Negocio.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\Negocio.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\DAL.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\Entity.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\DAL.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\DAL.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\Entity.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\bin\Debug\Entity.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.pdb

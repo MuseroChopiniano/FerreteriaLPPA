@@ -22,3 +22,15 @@ C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.vbproj.Generat
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.dll
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.xml
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\bin\Debug\DAL.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\bin\Debug\DAL.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\bin\Debug\DAL.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\bin\Debug\Entity.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\bin\Debug\Entity.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\bin\Debug\Entity.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.pdb

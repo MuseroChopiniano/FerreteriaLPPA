@@ -17,21 +17,17 @@
         _ds = _dal.Obtener_DatasetStoreProcedure(_storeprocedure, _parametros)
 
         usuario.Usuario = Nothing
-        Try
-            If _ds.Tables(0).Rows.Count > 0 Then
-                For Each Item As DataRow In _ds.Tables(0).Rows
-                    usuario.Usuario = Item("Usuario")
-                    usuario.IsValid = Item("IsValid")
-                    usuario.Bloqueado = Item("Bloqueado")
-                    usuario.Cant_Bloqueos = Item("Cant_Bloqueos")
-                    usuario.Ultimo_intento = Item("Ultimo_intento")
-                    usuario.Familia = Item("Familia")
-                Next
-            Else
-            End If
-        Catch
-            'TODO: manejo de errores
-        End Try
+        If _ds.Tables(0).Rows.Count > 0 Then
+            For Each Item As DataRow In _ds.Tables(0).Rows
+                usuario.Usuario = Item("Usuario")
+                usuario.IsValid = Item("IsValid")
+                usuario.Bloqueado = Item("Bloqueado")
+                usuario.Cant_Bloqueos = Item("Cant_Bloqueos")
+                usuario.Ultimo_intento = Item("Ultimo_intento")
+                usuario.Familia = Item("Familia")
+            Next
+        Else
+        End If
     End Sub
 
     Public Sub Bloquear_Usuarios(ByRef usuario As Entity.Usuario)

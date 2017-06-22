@@ -1,7 +1,9 @@
-﻿<%@ Page Title="Iniciar sesión" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="LogIn.aspx.vb" Inherits="LogIn" %>
+﻿<%@ Page Title="Iniciar sesión" Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Login.aspx.vb" Inherits="Account_Login" Async="true" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2></h2>
+<%@ Register Src="~/Account/OpenAuthProviders.ascx" TagPrefix="uc" TagName="OpenAuthProviders" %>
+
+<asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
+    <h2><%: Title %>.</h2>
 
     <div class="row">
         <div class="col-md-8">
@@ -18,15 +20,15 @@
                         <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Nombre de usuario</asp:Label>
                         <div class="col-md-10">
                             <asp:TextBox runat="server" ID="UserName" CssClass="form-control" />
-                            <%--<asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"--%>
-                                <%--CssClass="text-danger" ErrorMessage="The user name field is required." />--%>
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"
+                                CssClass="text-danger" ErrorMessage="The user name field is required." />
                         </div>
                     </div>
                     <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="Password" CssClass="col-md-2 control-label">Contraseña</asp:Label>
                         <div class="col-md-10">
                             <asp:TextBox runat="server" ID="Password" TextMode="Password" CssClass="form-control" />
-                            <%--<asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="text-danger" ErrorMessage="The password field is required." />--%>
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="text-danger" ErrorMessage="The password field is required." />
                         </div>
                     </div>
                     <div class="form-group">
@@ -39,26 +41,16 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
-                            <asp:Button runat="server" Text="Log in" CssClass="btn btn-default" ID="LogInBtn" OnClientClick="javascript:getHash()" OnClick="LogInBtn_Click" />
+                            <asp:Button runat="server" OnClick="LogIn" Text="Log in" CssClass="btn btn-default" />
                         </div>
                     </div>
                 </div>
                 <p>
                     En caso de que no posea una cuenta registrese 
-                    <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled" NavigateUrl="Registrarse.aspx" >aquí</asp:HyperLink>.
+                    <asp:HyperLink runat="server" ID="RegisterHyperLink" ViewStateMode="Disabled">aquí</asp:HyperLink>.
                 </p>
             </section>
         </div>
     </div>
-
-    <script type="text/javascript" src="Scripts/sha.js"></script>
-    <script type="text/javascript">
-        function getHash() {
-        var hashInput = document.getElementById("<%=Password.ClientID%>");
-        var hash = new jsSHA(hashInput.value, "TEXT");
-        var hashOutput = document.getElementById("<%=Password.ClientID%>");
-        hashOutput.value = hash.getHash("SHA-256", "HEX");
-        alert(hashOutput.value);
-      }</script>
 </asp:Content>
 

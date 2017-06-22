@@ -17,7 +17,7 @@ Public Class SQL_Desconectado
 
     Public Sub ConexionIniciar()
         Try
-            Dim connectionString As String = "Data Source=BIGNOTE\SERVIDOR;Initial Catalog=ElClavoOxidado;Integrated Security=true;"
+            Dim connectionString As String = "Data Source=.;Initial Catalog=ElClavoOxidado;Integrated Security=true;"
             _sqlConnection = New SqlConnection(connectionString)
             _sqlConnection.Open()
         Catch ex As Exception

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Iniciar sesión" Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="LogIn.aspx.vb" Inherits="LogIn" %>
+﻿<%@ Page Title="Iniciar sesión" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="LogIn.aspx.vb" Inherits="LogIn" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %></h2>
@@ -13,6 +13,7 @@
                         <p class="text-danger">
                             <asp:Literal runat="server" ID="FailureText" />
                         </p>
+    
                     </asp:PlaceHolder>
                     <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Nombre de usuario</asp:Label>
@@ -39,7 +40,7 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
-                            <asp:Button runat="server" Text="Log in" CssClass="btn btn-default" ID="LogInBtn" OnClick="LogInBtn_Click" />
+                            <asp:Button runat="server" Text="Log in" CssClass="btn btn-default" ID="LogInBtn" OnClientClick="javascript:getHash()" OnClick="LogInBtn_Click"/>
                         </div>
                     </div>
                 </div>
@@ -50,5 +51,14 @@
             </section>
         </div>
     </div>
+    <script type="text/javascript" src="Scripts/sha.js"></script>
+    <script type="text/javascript">
+        function getHash() {
+        var hashInput = document.getElementById("<%=Password.ClientID%>");
+        var hash = new jsSHA(hashInput.value, "TEXT");
+        var hashOutput = document.getElementById("<%=Password.ClientID%>");
+        hashOutput.value = hash.getHash("SHA-256", "HEX");
+        alert(hashOutput.value);
+      }</script>
 </asp:Content>
 

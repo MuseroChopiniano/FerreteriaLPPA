@@ -22,3 +22,15 @@ C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.vbproj.Generat
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.dll
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.xml
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\bin\Debug\DAL.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\bin\Debug\DAL.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\bin\Debug\DAL.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\bin\Debug\Entity.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\bin\Debug\Entity.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\bin\Debug\Entity.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\DAL\obj\Debug\DAL.pdb

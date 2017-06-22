@@ -7,7 +7,7 @@
         Dim _storeprocedure As String
         Dim _parametros As New Dictionary(Of String, Object)
 
-        _storeprocedure = "ObtenerUser" ' Nombre del store procedure de persistencia
+        _storeprocedure = "sp_ObtenerUser" ' Nombre del store procedure de persistencia
 
         _parametros.Clear()
         _parametros.Add("@Usuario", usuario.Usuario)
@@ -21,10 +21,10 @@
             For Each Item As DataRow In _ds.Tables(0).Rows
                 usuario.Usuario = Item("Usuario")
                 usuario.IsValid = Item("IsValid")
-                usuario.Bloqueado = Item("Bloqueado")
-                usuario.Cant_Bloqueos = Item("Cant_Bloqueos")
-                usuario.Ultimo_intento = Item("Ultimo_intento")
-                usuario.Familia = Item("Familia")
+                '   usuario.Bloqueado = Item("Bloqueado")
+                '  usuario.Cant_Bloqueos = Item("Cant_Bloqueos")
+                ' usuario.Ultimo_intento = Item("Ultimo_intento")
+                'usuario.Familia = Item("Familia")
             Next
         Else
         End If

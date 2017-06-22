@@ -34,3 +34,15 @@ C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para l
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.dll
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.xml
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\DAL\obj\Debug\DAL.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\bin\Debug\DAL.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\bin\Debug\DAL.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\bin\Debug\DAL.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\bin\Debug\Entity.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\bin\Debug\Entity.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\bin\Debug\Entity.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\obj\Debug\DAL.vbprojResolveAssemblyReference.cache
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\obj\Debug\DAL.Resources.resources
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\obj\Debug\DAL.vbproj.GenerateResource.Cache
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\obj\Debug\DAL.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\obj\Debug\DAL.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\DAL\obj\Debug\DAL.pdb

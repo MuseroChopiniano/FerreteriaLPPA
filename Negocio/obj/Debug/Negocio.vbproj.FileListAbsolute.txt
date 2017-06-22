@@ -43,3 +43,18 @@ C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para l
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.dll
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.xml
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Negocio\obj\Debug\Negocio.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\Negocio.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\Negocio.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\Negocio.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\DAL.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\Entity.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\DAL.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\DAL.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\Entity.pdb
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\bin\Debug\Entity.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\obj\Debug\Negocio.vbprojResolveAssemblyReference.cache
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\obj\Debug\Negocio.Resources.resources
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\obj\Debug\Negocio.vbproj.GenerateResource.Cache
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\obj\Debug\Negocio.dll
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\obj\Debug\Negocio.xml
+C:\Users\GastónAlejandro\Documents\GitHub\FerreteriaLPPA\FerreteriaLPPA\Negocio\obj\Debug\Negocio.pdb

@@ -5,7 +5,7 @@
     <script type="text/javascript" src="Scripts/imageslide.js"></script>
     <div class="container buscar">
         <asp:TextBox ID="BuscarTxt" runat="server" BorderStyle="Solid" Width="219px" CssClass="BuscarTxt"></asp:TextBox>
-        &nbsp;<asp:Button ID="BuscarBtn" runat="server" Text="Buscar" CssClass="btn btn-default" />
+        <asp:Button ID="BuscarBtn" runat="server" Text="Buscar" CssClass="btn btn-default" />
     </div>
     <section id="BannerSection">
         <ul id="galeria">

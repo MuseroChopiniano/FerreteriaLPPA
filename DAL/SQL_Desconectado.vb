@@ -107,4 +107,27 @@ Public Class SQL_Desconectado
             Return -1
         End Try
     End Function
+
+    Public Sub EjecutarNonQuery_StoreProcedure(sp As String, Optional parametros As Dictionary(Of String, Object) = Nothing)
+        Try
+            Dim unComando As New SqlCommand()
+
+            '1) La conexion abierta.
+            unComando.Connection = _sqlConnection
+
+            '2) Texto de la consulta.
+            unComando.CommandText = sp
+
+            For Each p In parametros
+                unComando.Parameters.AddWithValue(p.Key, p.Value)
+            Next
+
+            '3) Tipo de consulta.
+            unComando.CommandType = CommandType.StoredProcedure
+
+            '4) Ejecutar y esperar el resultado.
+            unComando.ExecuteNonQuery()
+        Catch ex As Exception
+        End Try
+    End Sub
 End Class

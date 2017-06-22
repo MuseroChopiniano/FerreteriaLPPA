@@ -7,6 +7,8 @@ Partial Class LogIn
     Dim vUsuarioNeg As New Negocio.Usuario
     Dim vUsuarioEntity As Entity.Usuario
     Dim vIntentos As Integer
+    Dim vBitacoraNeg As New Negocio.Bitacora
+    Dim vBitacoraEntity As Entity.Bitacora
 
 
     Protected Sub LogInBtn_Click(sender As Object, e As EventArgs) Handles LogInBtn.Click
@@ -20,7 +22,13 @@ Partial Class LogIn
                 End If
                 'HttpContext.Current.User.IsInRole(vUsuarioEntity.Familia)
                 MsgBox("Usted se ha logueado correctamente")
-                    MsgBox("Bienvenido " + UserName.Text)
+                MsgBox("Bienvenido " + UserName.Text)
+
+                vBitacoraEntity = New Entity.Bitacora
+                vBitacoraEntity.Usuario = vUsuarioEntity.Usuario
+                vBitacoraEntity.Tipo = "Inicio de sesión"
+                vBitacoraEntity.Actividad = vUsuarioEntity.Usuario & " inicio sesión"
+                vBitacoraNeg.Alta_Bitacora(vBitacoraEntity)
                 Response.Redirect("/Default", True)
 
             Else

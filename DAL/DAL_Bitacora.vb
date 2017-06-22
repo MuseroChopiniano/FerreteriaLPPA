@@ -14,4 +14,19 @@ Public Class DAL_Bitacora
         Next
         Return _listaBitacora
     End Function
+
+    Public Sub Alta_Bitacora(ByRef bitacora As Entity.Bitacora)
+        Dim _dal As New DAL.SQL_Desconectado
+        Dim _storeProcedure As String
+        Dim _parametros As New Dictionary(Of String, Object)
+
+        _storeProcedure = "AltaBitacora"
+
+        _parametros.Clear()
+        _parametros.Add("@Usuario", bitacora.Usuario)
+        _parametros.Add("@Tipo", bitacora.Tipo)
+        _parametros.Add("@Actividad", bitacora.Actividad)
+
+        _dal.EjecutarNonQuery_StoreProcedure(_storeProcedure, _parametros)
+    End Sub
 End Class

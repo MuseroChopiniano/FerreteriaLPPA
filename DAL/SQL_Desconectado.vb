@@ -121,6 +121,9 @@ Public Class SQL_Desconectado
             unComando.Parameters.Clear()
             For Each p In parametros
                 unComando.Parameters.AddWithValue(p.Key, p.Value)
+                If p.Key = "@Result" Then
+                    unComando.Parameters("@Result").Direction = ParameterDirection.Output
+                End If
             Next
 
             '3) Tipo de consulta.

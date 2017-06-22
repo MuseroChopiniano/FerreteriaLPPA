@@ -52,7 +52,12 @@ Public Partial Class SiteMaster
     End Sub
 
     Protected Sub Page_Load(sender As Object, e As EventArgs)
-
+        Try
+            Roles.CreateRole("1")
+            Roles.CreateRole("2")
+            Roles.CreateRole("3")
+        Catch ex As Exception
+        End Try
     End Sub
 
     Protected Sub Unnamed_LoggingOut(sender As Object, e As LoginCancelEventArgs)
@@ -61,18 +66,18 @@ Public Partial Class SiteMaster
     End Sub
 
     Private Sub CargarBitacora(usuario As String)
-        Dim vBitacoraNeg As New Negocio.Bitacora
-        Dim vBitacoraEntity As New Entity.Bitacora
+        Dim _bitacoraNeg As New Negocio.Bitacora
+        Dim _bitacoraEntity As New Entity.Bitacora
 
-        Dim vListaBitacora = vBitacoraNeg.Obtener_Bitacora()
-        If vListaBitacora.Count > 0 Then
-            vBitacoraEntity.Id = vListaBitacora.Last.Id + 1
+        Dim _listaBitacora = _bitacoraNeg.Obtener_Bitacora()
+        If _listaBitacora.Count > 0 Then
+            _bitacoraEntity.Id = _listaBitacora.Last.Id + 1
         Else
-            vBitacoraEntity.Id = 1
+            _bitacoraEntity.Id = 1
         End If
-        vBitacoraEntity.Usuario = usuario
-        vBitacoraEntity.Tipo = "Cierre de sesión"
-        vBitacoraEntity.Actividad = usuario & " cerró sesión"
-        vBitacoraNeg.Alta_Bitacora(vBitacoraEntity)
+        _bitacoraEntity.Usuario = usuario
+        _bitacoraEntity.Tipo = "Cierre de sesión"
+        _bitacoraEntity.Actividad = usuario & " cerró sesión"
+        _bitacoraNeg.Alta_Bitacora(_bitacoraEntity)
     End Sub
 End Class

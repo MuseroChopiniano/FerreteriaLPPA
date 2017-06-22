@@ -49,30 +49,69 @@
                     <a class="navbar-brand" runat="server" href="~/">El Clavo Oxidado</a>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
+                   
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                             <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
                         <li><a runat="server" href="~/About">Quiénes Somos</a></li>
                         <li><a runat="server" href="~/Contact">Contacto</a></li>
                         <li><a runat="server" href="~/Productos"> Productos</a></li>
                     </ul>
-                    <asp:LoginView runat="server" ViewStateMode="Disabled">
-                        <AnonymousTemplate>
                             <ul class="nav navbar-nav navbar-right">
                                 <li><a runat="server" href="~/Registrarse">Registrarse</a></li>
-                                <%--<li><a runat="server" href="~/Account/Login">Iniciar Sesión</a></li>--%>
                                 <li><a runat="server" href="~/LogIn">Iniciar Sesión</a></li>
                             </ul>
                         </AnonymousTemplate>
                         <LoggedInTemplate>
+                             <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/">Inicio</a></li>
+                        <li><a runat="server" href="~/About">Quiénes Somos</a></li>
+                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                        <li><a runat="server" href="~/Productos"> Productos</a></li>
+                    </ul>
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a runat="server" href="~/Carrito" title="Mi carrito">Mi carrito</a></li>
-                                <li><a runat="server" href="~/Account/Manage" title="Mi Cuenta">Hola, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                <li><a runat="server" href="~/Carrito.aspx" title="Mi carrito">Mi carrito</a></li>
+                                <li><a runat="server" href="~/MiCuenta.aspx" title="Mi Cuenta">Hola, <%: Context.User.Identity.GetUserName()  %>!</a></li>
                                 <li>
                                     <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
                                 </li>
 
                             </ul>
                         </LoggedInTemplate>
+                        <RoleGroups>
+                            <asp:RoleGroup Roles="1">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav">
+                                        <li><a runat="server" href="~/">Inicio</a></li>
+                                        <li><a runat="server" href="~/Bitacora.aspx" title="Bitácora">Bitácora</a></li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a runat="server" href="~/MiCuenta.aspx" title="Mi Cuenta">Hola, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                        <li>
+                                            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                            <asp:RoleGroup Roles="3">
+                                <ContentTemplate>
+                                    <ul class="nav navbar-nav">
+                                        <li><a runat="server" href="~/">Inicio</a></li>
+                                        <li><a runat="server" href="~/About">Quiénes Somos</a></li>
+                                        <li><a runat="server" href="~/Contact">Contacto</a></li>
+                                        <li><a runat="server" href="~/Productos"> Productos</a></li>
+                                    </ul>
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a runat="server" href="~/Carrito.aspx" title="Mi carrito">Mi carrito</a></li>
+                                        <li><a runat="server" href="~/MiCuenta.aspx" title="Mi Cuenta">Hola, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                        <li>
+                                            <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Cerrar sesión" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                        </li>
+                                    </ul>
+                                </ContentTemplate>
+                            </asp:RoleGroup>
+                        </RoleGroups>
                     </asp:LoginView>
                 </div>
                 

@@ -38,4 +38,17 @@
 
         Return True
     End Function
+
+    Public Function Obtener_Familia(_user As Entity.Usuario, _pass As String) As Integer
+        Dim _dal As New DAL.DAL_Usuario
+        _dal.Obtener_Usuarios(_user, _pass)
+
+        Return _user.Familia
+
+    End Function
+
+    Public Function Alta_Usuario(_usuario As Entity.Usuario) As Boolean
+        Dim _dal As New DAL.DAL_Usuario
+        Return _dal.Alta_Usuario(_usuario)
+    End Function
 End Class

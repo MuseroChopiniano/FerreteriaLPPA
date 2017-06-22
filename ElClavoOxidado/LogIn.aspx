@@ -18,15 +18,15 @@
                         <asp:Label runat="server" AssociatedControlID="UserName" CssClass="col-md-2 control-label">Nombre de usuario</asp:Label>
                         <div class="col-md-10">
                             <asp:TextBox runat="server" ID="UserName" CssClass="form-control" />
-                            <%--<asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"--%>
-                                <%--CssClass="text-danger" ErrorMessage="The user name field is required." />--%>
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="UserName"
+                                CssClass="text-danger" ErrorMessage="The user name field is required." />
                         </div>
                     </div>
                     <div class="form-group">
                         <asp:Label runat="server" AssociatedControlID="Password" CssClass="col-md-2 control-label">Contraseña</asp:Label>
                         <div class="col-md-10">
                             <asp:TextBox runat="server" ID="Password" TextMode="Password" CssClass="form-control" />
-                            <%--<asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="text-danger" ErrorMessage="The password field is required." />--%>
+                            <asp:RequiredFieldValidator runat="server" ControlToValidate="Password" CssClass="text-danger" ErrorMessage="The password field is required." />
                         </div>
                     </div>
                     <div class="form-group">
@@ -58,7 +58,6 @@
         var hash = new jsSHA(hashInput.value, "TEXT");
         var hashOutput = document.getElementById("<%=Password.ClientID%>");
         hashOutput.value = hash.getHash("SHA-256", "HEX");
-        alert(hashOutput.value);
       }</script>
 </asp:Content>
 

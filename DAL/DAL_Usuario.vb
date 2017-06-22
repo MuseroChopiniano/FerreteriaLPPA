@@ -21,10 +21,8 @@
             For Each Item As DataRow In _ds.Tables(0).Rows
                 usuario.Usuario = Item("Usuario")
                 usuario.IsValid = Item("IsValid")
-                '   usuario.Bloqueado = Item("Bloqueado")
-                '  usuario.Cant_Bloqueos = Item("Cant_Bloqueos")
-                ' usuario.Ultimo_intento = Item("Ultimo_intento")
-                'usuario.Familia = Item("Familia")
+                usuario.Bloqueado = Item("Bloqueado")
+                usuario.Familia = Item("Familia")
             Next
         Else
         End If
@@ -47,4 +45,25 @@
         _ds = _dal.EjecutarEscalar_StoreProcedure(_storeprocedure, _parametros)
 
     End Sub
+
+    Public Function Alta_Usuario(ByRef usuario As Entity.Usuario) As Boolean
+        Dim _dal As New DAL.SQL_Desconectado
+        Dim _storeProcedure As String
+        Dim _parametros As New Dictionary(Of String, Object)
+
+        _storeProcedure = "AltaUsuario"
+
+        _parametros.Clear()
+        _parametros.Add("@Usuario", usuario.Usuario)
+        _parametros.Add("@Email", usuario.Email)
+        _parametros.Add("@Password", usuario.Password)
+        _parametros.Add("@Familia", usuario.Familia)
+        _parametros.Add("@Result", SqlDbType.Bit)
+
+
+        _dal.EjecutarNonQuery_StoreProcedure(_storeProcedure, _parametros)
+
+        Return _parametros("@Result")
+    End Function
+
 End Class

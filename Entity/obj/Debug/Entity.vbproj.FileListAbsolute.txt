@@ -23,3 +23,4 @@ C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para l
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.dll
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.xml
 C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.vbprojResolveAssemblyReference.cache

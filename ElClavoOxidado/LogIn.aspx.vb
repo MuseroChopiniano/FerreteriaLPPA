@@ -21,14 +21,9 @@ Partial Class LogIn
                     FormsAuthentication.SetAuthCookie(UserName.Text, False)
                 End If
                 'HttpContext.Current.User.IsInRole(vUsuarioEntity.Familia)
+                CargarBitacora(vUsuarioEntity.Usuario)
                 MsgBox("Usted se ha logueado correctamente")
                 MsgBox("Bienvenido " + UserName.Text)
-
-                vBitacoraEntity = New Entity.Bitacora
-                vBitacoraEntity.Usuario = vUsuarioEntity.Usuario
-                vBitacoraEntity.Tipo = "Inicio de sesión"
-                vBitacoraEntity.Actividad = vUsuarioEntity.Usuario & " inicio sesión"
-                vBitacoraNeg.Alta_Bitacora(vBitacoraEntity)
                 Response.Redirect("/Default", True)
 
             Else
@@ -45,5 +40,21 @@ Partial Class LogIn
         If isSomeoneLoggedIn Then
             Response.Redirect("~/Default", True)
         End If
+    End Sub
+
+    Private Sub CargarBitacora(usuario As String)
+        Dim vBitacoraNeg As New Negocio.Bitacora
+        Dim vBitacoraEntity As New Entity.Bitacora
+
+        Dim vListaBitacora = vBitacoraNeg.Obtener_Bitacora()
+        If vListaBitacora.Count > 0 Then
+            vBitacoraEntity.Id = vListaBitacora.Last.Id + 1
+        Else
+            vBitacoraEntity.Id = 1
+        End If
+        vBitacoraEntity.Usuario = usuario
+        vBitacoraEntity.Tipo = "Cierre de sesión"
+        vBitacoraEntity.Actividad = usuario & " cerró sesión"
+        vBitacoraNeg.Alta_Bitacora(vBitacoraEntity)
     End Sub
 End Class

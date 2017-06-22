@@ -57,5 +57,22 @@ Public Partial Class SiteMaster
 
     Protected Sub Unnamed_LoggingOut(sender As Object, e As LoginCancelEventArgs)
         Context.GetOwinContext().Authentication.SignOut()
+        CargarBitacora(HttpContext.Current.User.Identity.Name)
+    End Sub
+
+    Private Sub CargarBitacora(usuario As String)
+        Dim vBitacoraNeg As New Negocio.Bitacora
+        Dim vBitacoraEntity As New Entity.Bitacora
+
+        Dim vListaBitacora = vBitacoraNeg.Obtener_Bitacora()
+        If vListaBitacora.Count > 0 Then
+            vBitacoraEntity.Id = vListaBitacora.Last.Id + 1
+        Else
+            vBitacoraEntity.Id = 1
+        End If
+        vBitacoraEntity.Usuario = usuario
+        vBitacoraEntity.Tipo = "Cierre de sesión"
+        vBitacoraEntity.Actividad = usuario & " cerró sesión"
+        vBitacoraNeg.Alta_Bitacora(vBitacoraEntity)
     End Sub
 End Class

@@ -15,3 +15,11 @@ C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Entity\obj\Debug\Entity.vbproj.G
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Entity\obj\Debug\Entity.dll
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Entity\obj\Debug\Entity.xml
 C:\Users\Lenovo\Documents\GitHub\FerreteriaLPPA\Entity\obj\Debug\Entity.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\bin\Debug\Entity.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\bin\Debug\Entity.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\bin\Debug\Entity.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.Resources.resources
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.vbproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\Entity\obj\Debug\Entity.pdb

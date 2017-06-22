@@ -34,7 +34,7 @@ Public Class SQL_Desconectado
         End Try
     End Sub
 
-    Public Function Obtener_DatasetStoreProcedure(sp As String, parametros As Dictionary(Of String, Object))
+    Public Function Obtener_DatasetStoreProcedure(sp As String, Optional parametros As Dictionary(Of String, Object) = Nothing)
         Try
 
             Dim unComando As New SqlCommand()
@@ -44,10 +44,13 @@ Public Class SQL_Desconectado
 
             '2) Texto de la consulta.
             unComando.CommandText = sp
-    
-            For Each p In parametros
-                unComando.Parameters.AddWithValue(p.Key, p.Value)
-             Next
+
+            If Not parametros Is Nothing Then
+                For Each p In parametros
+                    unComando.Parameters.AddWithValue(p.Key, p.Value)
+                Next
+            End If
+
 
             '3) Tipo de consulta.
             unComando.CommandType = CommandType.StoredProcedure
@@ -55,7 +58,7 @@ Public Class SQL_Desconectado
             'SE CREA EL OBJETO DATAADAPTER PARA LLENAR EL DATASET
             mDa = New SqlDataAdapter(unComando)
 
-        
+
 
             'LA SIGUIENTE LINEA ESTA COMENTADA PORQUE EL DATADAPTER ABRE Y CIERRA SOLO LA CONEXION
             'SIN AMBARGO, SI HUBIESE QUE LLENAR VARIAS TABLAS EN DISTINTOS PASOS, SE PODRIA ABRIR

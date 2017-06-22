@@ -62,6 +62,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL_Bitacora.vb" />
     <Compile Include="DAL_Usuario.vb" />
     <Compile Include="Settings.vb" />
     <Compile Include="SQL_Desconectado.vb" />

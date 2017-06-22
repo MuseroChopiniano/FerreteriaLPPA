@@ -46,7 +46,11 @@
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
+<<<<<<< HEAD
                 <asp:Button runat="server" Text="Registrarse" CssClass="btn btn-default" OnClientClick="javascript:getHash()" OnClick="Registrarse" ID="RegistrarseBtn" />
+=======
+                <asp:Button runat="server" Text="Registrarse" CssClass="btn btn-default" ID="RegistrarseBtn" />
+>>>>>>> origin/master
             </div>
         </div>
     </div>

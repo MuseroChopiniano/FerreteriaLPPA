@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Iniciar sesión" Language="VB" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="LogIn.aspx.vb" Inherits="LogIn" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2><%: Title %></h2>
+    <h2></h2>
 
     <div class="row">
         <div class="col-md-8">
@@ -40,7 +40,11 @@
                     </div>
                     <div class="form-group">
                         <div class="col-md-offset-2 col-md-10">
+<<<<<<< HEAD
                             <asp:Button runat="server" Text="Log in" CssClass="btn btn-default" ID="LogInBtn" OnClientClick="javascript:getHash()" OnClick="LogInBtn_Click"/>
+=======
+                            <asp:Button runat="server" Text="Log in" CssClass="btn btn-default" ID="LogInBtn" />
+>>>>>>> origin/master
                         </div>
                     </div>
                 </div>

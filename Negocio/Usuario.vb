@@ -47,8 +47,13 @@
 
     End Function
 
-    Public Function Alta_Usuario(_usuario As Entity.Usuario) As Boolean
+    Public Sub Alta_Usuario(_usuario As Entity.Usuario)
         Dim _dal As New DAL.DAL_Usuario
-        Return _dal.Alta_Usuario(_usuario)
+        _dal.Alta_Usuario(_usuario)
+    End Sub
+
+    Public Function Chequear_Usuario(_username As String) As Boolean
+        Dim _dal As New DAL.DAL_Usuario
+        Return _dal.Chequear_Usuario(_username)
     End Function
 End Class

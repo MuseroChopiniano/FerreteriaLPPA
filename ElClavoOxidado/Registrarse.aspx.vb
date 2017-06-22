@@ -15,11 +15,14 @@ Partial Class Registrarse
             _usuarioEntity.Password = Password.Text
             _usuarioEntity.Familia = 3
 
-            If _usuarioNegocio.Alta_Usuario(_usuarioEntity) = False Then
-                MsgBox("El nombre de usuario ya existe")
+            If _usuarioNegocio.Chequear_Usuario(_usuarioEntity.Usuario) = False Then
+                ErrorMessage.Text = "El nombre de usuario ingresado ya existe, pruebe otro nombre de usuario"
+                ErrorMessage.Visible = True
+            Else
+                _usuarioNegocio.Alta_Usuario(_usuarioEntity)
+                CargarBitacoraRegistrar(_usuarioEntity.Usuario)
+                LogIn()
             End If
-            CargarBitacoraRegistrar(_usuarioEntity.Usuario)
-            LogIn()
         End If
     End Sub
 

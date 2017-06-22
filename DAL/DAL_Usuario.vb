@@ -46,7 +46,7 @@
 
     End Sub
 
-    Public Function Alta_Usuario(ByRef usuario As Entity.Usuario) As Boolean
+    Public Sub Alta_Usuario(ByRef usuario As Entity.Usuario)
         Dim _dal As New DAL.SQL_Desconectado
         Dim _storeProcedure As String
         Dim _parametros As New Dictionary(Of String, Object)
@@ -58,12 +58,27 @@
         _parametros.Add("@Email", usuario.Email)
         _parametros.Add("@Password", usuario.Password)
         _parametros.Add("@Familia", usuario.Familia)
-        _parametros.Add("@Result", SqlDbType.Bit)
-
 
         _dal.EjecutarNonQuery_StoreProcedure(_storeProcedure, _parametros)
+    End Sub
 
-        Return _parametros("@Result")
+    Public Function Chequear_Usuario(username As String) As Boolean
+        Dim _dal As New DAL.SQL_Desconectado
+        Dim _ds As DataSet
+        Dim _storeProcedure As String
+        Dim _parametros As New Dictionary(Of String, Object)
+
+        _storeProcedure = "ChequearUsuario"
+
+        _parametros.Clear()
+        _parametros.Add("@Usuario", username)
+
+        _ds = _dal.Obtener_DatasetStoreProcedure(_storeProcedure, _parametros)
+
+        If _ds.Tables(0).Rows.Count > 0 Then
+            Return False
+        Else
+            Return true
+        End If
     End Function
-
 End Class

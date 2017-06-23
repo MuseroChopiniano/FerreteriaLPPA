@@ -20,7 +20,6 @@ Partial Class LogIn
                 Else
                     FormsAuthentication.SetAuthCookie(UserName.Text, False)
                 End If
-                _usuarioEntity.Familia = _usuarioNeg.Obtener_Familia(_usuarioEntity, _usuarioEntity.Password)
                 If Roles.IsUserInRole(_usuarioEntity.Usuario, _usuarioEntity.Familia) = False Then
                     Roles.AddUserToRole(_usuarioEntity.Usuario, _usuarioEntity.Familia)
                 End If

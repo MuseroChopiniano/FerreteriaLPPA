@@ -1,0 +1,158 @@
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\ElClavoOxidado.dll.config
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\ElClavoOxidado.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\ElClavoOxidado.pdb
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\WebForms_Basic.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Antlr3.Runtime.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Entity.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\EntityFramework.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\EntityFramework.SqlServer.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Negocio.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Newtonsoft.Json.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Owin.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\System.Web.Optimization.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\System.Web.Providers.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\WebGrease.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\DAL.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Entity.pdb
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Entity.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Negocio.pdb
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Negocio.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\System.Web.Optimization.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Antlr3.Runtime.pdb
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Newtonsoft.Json.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\EntityFramework.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\EntityFramework.SqlServer.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\System.Web.Providers.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\DAL.pdb
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\DAL.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\EntityFramework.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\obj\Debug\ElClavoOxidado.vbprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\obj\Debug\ElClavoOxidado.Resources.resources
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\obj\Debug\ElClavoOxidado.vbproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\obj\Debug\ElClavoOxidado.dll
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\obj\Debug\WebForms_Basic.xml
+C:\Users\Facu\Desktop\ElClavoOxidado\ElClavoOxidado\obj\Debug\ElClavoOxidado.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\ElClavoOxidado.dll.config
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\ElClavoOxidado.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\ElClavoOxidado.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\WebForms_Basic.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Antlr3.Runtime.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Entity.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\EntityFramework.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\EntityFramework.SqlServer.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Negocio.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Newtonsoft.Json.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Owin.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\System.Web.Optimization.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\System.Web.Providers.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\WebGrease.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\DAL.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Entity.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Entity.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Negocio.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Negocio.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\System.Web.Optimization.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Antlr3.Runtime.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Newtonsoft.Json.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\EntityFramework.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\EntityFramework.SqlServer.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\System.Web.Providers.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\DAL.pdb
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\DAL.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\EntityFramework.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.Owin.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.Owin.Security.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\obj\Debug\ElClavoOxidado.vbprojResolveAssemblyReference.cache
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\obj\Debug\ElClavoOxidado.Resources.resources
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\obj\Debug\ElClavoOxidado.vbproj.GenerateResource.Cache
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\obj\Debug\ElClavoOxidado.dll
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\obj\Debug\WebForms_Basic.xml
+C:\Users\Facu\Desktop\2017\Primer Cuatrimestre\Lenguajes de Programación para la Administración\FerreteriaLPPA\ElClavoOxidado\obj\Debug\ElClavoOxidado.pdb
